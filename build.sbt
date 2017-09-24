@@ -11,7 +11,8 @@ lazy val commonDeps = Seq(
  scalatest % Test,
  akka_persist,
  leveldb,
- leveldbjni
+ leveldbjni,
+ persist_query
 
 )
 lazy val root = (project in file(".")).
